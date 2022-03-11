@@ -1,0 +1,153 @@
+@media (max-width: 575px) {
+  .detail_main {
+    width: 464px;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 858px) {
+  .detail_main {
+    width: 464px;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 859px) and (max-width: 991px) {
+  .detail_main {
+    width: 856px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .detail_main {
+    width: 856px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .detail_main {
+    width: 967px;
+  }
+}
+
+.detail_main {
+  display: flex;
+  margin: 200px auto 100px;
+  transition: 1s;
+  svg {
+    cursor: pointer;
+  }
+  .left_container {
+    padding: 10px;
+    .image_wrapper {
+      width: 445px;
+      height: 461px;
+      display: flex;
+      & img {
+        width: 445px;
+        height: 461px;
+      }
+    }
+  }
+  .right_container {
+    padding: 10px;
+  }
+  .container_header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid;
+    & h2 {
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+  .summary_wrapper {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c1c1c1;
+  }
+  .infomation_wrapper {
+    .infomation_header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #c1c1c1;
+      & h3 {
+        font-size: 18px;
+        font-weight: 600;
+      }
+      & span {
+        font-size: 14px;
+        color: #5a5757;
+      }
+    }
+    .infomation_contents {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      .infomation_box {
+        flex: 1;
+        &:nth-child(1) {
+          border-right: 1px solid #c1c1c1;
+        }
+        & div {
+          display: flex;
+          justify-content: space-between;
+          padding: 16px 12px;
+          font-size: 14px;
+        }
+      }
+    }
+    .infomation_allergy {
+      padding: 10px;
+      margin-bottom: 20px;
+      background-color: #efefef;
+      font-size: 14px;
+    }
+  }
+  .review_container {
+    .review_header {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 4px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #c1c1c1;
+    }
+    .review_list {
+      min-height: 10px;
+      max-height: 75px;
+      overflow: scroll;
+      & ul {
+        display: flex;
+        flex-direction: column-reverse;
+        li {
+          position: relative;
+          padding: 4px 0px;
+          &:hover {
+            :nth-child(3) {
+              display: inline;
+            }
+          }
+          :nth-child(1) {
+            font-weight: bold;
+            margin-right: 8px;
+          }
+          :nth-child(3) {
+            display: none;
+            position: absolute;
+            right: 0px;
+          }
+        }
+      }
+    }
+    .review_input {
+      width: 100%;
+      padding: 10px;
+      border: 0;
+      background-color: #efefef;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.coffee_main {
+  @media (max-width: 575px) {
+    .image_wrapper {
+      width: 219px !important;
+      height: 236px !important;
+      & img {
+        width: 225px !important;
+        height: 236px !important;
+        &:hover {
+          width: 254px !important;
+          height: 267px !important;
+        }
+      }
+    }
+  }
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  margin: 16px 10px;
+
+  .icon {
+    cursor: pointer;
+  }
+  .icon_heart {
+    &:hover {
+      width: 1.2em;
+      height: 1.2em;
+      transition: 0.5s;
+    }
+  }
+  .image_wrapper {
+    width: 265px;
+    height: 282px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 1s;
+
+    & img {
+      width: 271px;
+      height: 282px;
+      transition: 1s;
+      &:hover {
+        width: 298px;
+        height: 311px;
+      }
+    }
+  }
+  .coffee_name {
+    margin-top: 16px;
+  }
+  .icon_heart {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+}

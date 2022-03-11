@@ -1,0 +1,34 @@
+[
+  {
+    "id": "BD0001",
+    "image": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[106509]_20210430111852870.jpg",
+    "name": "아이스 커피",
+    "type": "브루드",
+    "summary": "깔끔하고 상큼함이 특징인 시원한 아이스 커피",
+    "nourishment": {
+      "kal": 5,
+      "saturatedFat": 0,
+      "protein": 0,
+      "sodium": 10,
+      "sugar": 0,
+      "caffeine": 140,
+      "allergy": []
+    }
+  },
+  {
+    "id": "BD0002",
+    "image": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[2]_20210430111934117.jpg",
+    "name": "오늘의 커피",
+    "type": "브루드",
+    "summary": "신선하게 브루드(Brewed)되어 원두의 다양함이 살아있는 커피",
+    "nourishment": {
+      "kal": 5,
+      "saturatedFat": 0,
+      "protein": 0,
+      "sodium": 10,
+      "sugar": 0,
+      "caffeine": 260,
+      "allergy": []
+    }
+  }
+]
